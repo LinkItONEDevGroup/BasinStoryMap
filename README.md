@@ -10,3 +10,4 @@
 
 - 資料包名稱與設定
 	- 頭前溪流域 [頭前溪流域情報開放地圖_V0.0.5.zip](https://drive.google.com/file/d/1tTK--AwUf9hBjSudNFpH3MkxTHirNjyW/view?usp=sharing)
+    - 流域情報開放地圖 [流域情報開放地圖_V0.0.6.zip](https://drive.google.com/file/d/1vdoVUCHkkE8GEsUbSMFeI4SGQzu0HW_u/view?usp=sharing)
