@@ -1,0 +1,30 @@
+.
+├── 0A01_頭前溪
+│   ├── 頭前溪流域.geojson
+│   ├── 新竹水質測站.csv
+│   ├── 新竹水質測站.txt
+│   └── 頭前溪流域範圍.geojson
+├── 0A02_秀姑巒溪流域
+│   ├── 秀姑巒溪流域範圍.geojson
+│   └── 鱉溪流域空間資料庫_1090413更新.kmz
+├── 0A03_淡水河流域
+│   ├── c1140_main_sub.gpkg
+│   ├── c1140_main_sub.gpkg-shm
+│   ├── c1140_main_sub.gpkg-wal
+│   ├── 淡水河-子流域範圍.gpkg
+│   ├── 淡水河-子流域範圍.gpkg-shm
+│   ├── 淡水河-子流域範圍.gpkg-wal
+│   ├── 淡水河-子流域範圍.qlr
+│   ├── 淡水河-子流域範圍.readme
+│   ├── 淡水河-子流域範圍_V0.1.zip
+│   ├── 大坑溪_tbn_save.csv
+│   ├── 淡水河流域範圍.geojson
+│   └── 臺北市水質監測站基本資料.csv
+├── 0A05_舊濁水溪流域
+│   ├── 東螺溪流域-蝴蝶.csv
+│   └── 舊濁水溪流域範圍.geojson
+├── 0A_流域.qgs
+├── 0A_流域_all.qlr
+└── filelist.txt
+
+4 directories, 23 files
