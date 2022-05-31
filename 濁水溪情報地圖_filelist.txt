@@ -1,0 +1,538 @@
+.
+├── 1濁水溪相關
+│   ├── ZH_林班地山坡地平地
+│   │   └── ZH_林班地山坡地平地
+│   │       ├── Blank_濁水溪流域.dbf
+│   │       ├── Blank_濁水溪流域.sbn
+│   │       ├── Blank_濁水溪流域.sbx
+│   │       ├── Blank_濁水溪流域.shp
+│   │       ├── Blank_濁水溪流域.shp.xml
+│   │       ├── Blank_濁水溪流域.shx
+│   │       ├── 山坡地濁水溪流域.dbf
+│   │       ├── 林班地濁水溪流域.dbf
+│   │       ├── 山坡地濁水溪流域.prj
+│   │       ├── 林班地濁水溪流域.prj
+│   │       ├── 山坡地濁水溪流域.sbn
+│   │       ├── 林班地濁水溪流域.sbn
+│   │       ├── 山坡地濁水溪流域.sbx
+│   │       ├── 林班地濁水溪流域.sbx
+│   │       ├── 山坡地濁水溪流域.shp
+│   │       ├── 林班地濁水溪流域.shp
+│   │       ├── 山坡地濁水溪流域.shp.xml
+│   │       ├── 林班地濁水溪流域.shp.xml
+│   │       ├── 山坡地濁水溪流域.shx
+│   │       └── 林班地濁水溪流域.shx
+│   ├── 濁水溪-水庫堰壩.gpkg
+│   ├── 濁水溪-水庫蓄水.gpkg
+│   ├── 濁水溪-水庫集水.gpkg
+│   ├── 濁水溪-水量測站.gpkg
+│   ├── 濁水溪-流量測站.gpkg
+│   ├── 濁水溪-水庫堰壩.gpkg-shm
+│   ├── 濁水溪-水庫蓄水.gpkg-shm
+│   ├── 濁水溪-水庫集水.gpkg-shm
+│   ├── 濁水溪-水量測站.gpkg-shm
+│   ├── 濁水溪-水庫堰壩.gpkg-wal
+│   ├── 濁水溪-水庫蓄水.gpkg-wal
+│   ├── 濁水溪-水庫集水.gpkg-wal
+│   ├── 濁水溪-水量測站.gpkg-wal
+│   ├── 濁水溪-水位測站.qlr
+│   ├── 濁水溪-水庫堰壩.qlr
+│   ├── 濁水溪-水庫蓄水.qlr
+│   ├── 濁水溪-水庫集水.qlr
+│   ├── 濁水溪-流量測站.qlr
+│   ├── 濁水溪-水門位置圖.gpkg
+│   ├── 濁水溪-河川斷面樁.gpkg
+│   ├── 濁水溪-水門位置圖.gpkg-shm
+│   ├── 濁水溪-水門位置圖.gpkg-wal
+│   ├── 濁水溪-水門位置圖.qlr
+│   ├── 濁水溪-河川斷面樁.qlr
+│   ├── 濁水溪-河川斷面線.qlr
+│   ├── 水質監測站
+│   │   └── 水質監測站
+│   │       ├── 水庫水質監測站
+│   │       │   ├── 水庫水質監測站_121.dbf
+│   │       │   ├── 水庫水質監測站_121.prj
+│   │       │   ├── 水庫水質監測站_121.sbn
+│   │       │   ├── 水庫水質監測站_121.sbx
+│   │       │   ├── 水庫水質監測站_121.shp
+│   │       │   └── 水庫水質監測站_121.shx
+│   │       ├── 河川水質監測站
+│   │       │   ├── 河川水質監測站_121_10503.dbf
+│   │       │   ├── 河川水質監測站_121_10503.prj
+│   │       │   ├── 河川水質監測站_121_10503.sbn
+│   │       │   ├── 河川水質監測站_121_10503.sbx
+│   │       │   ├── 河川水質監測站_121_10503.shp
+│   │       │   ├── 河川水質監測站_121_10503.shp.xml
+│   │       │   └── 河川水質監測站_121_10503.shx
+│   │       └── 地下水水質監測站
+│   │           ├── gwqmosta.dbf
+│   │           ├── gwqmosta.sbn
+│   │           ├── gwqmosta.sbx
+│   │           ├── gwqmosta.shp
+│   │           └── gwqmosta.shx
+│   ├── 濁水溪流域(支流).gpkg
+│   ├── 濁水溪流域(支流).gpkg-shm
+│   ├── 濁水溪流域(支流).gpkg-wal
+│   ├── 濁水溪流域(支流).qlr
+│   ├── 濁水溪河川(中央管).gpkg
+│   ├── 濁水溪河川(中央管).gpkg-shm
+│   ├── 濁水溪河川(中央管).gpkg-wal
+│   ├── 濁水溪流域(中央管).qlr
+│   ├── 濁水溪流域.gpkg
+│   ├── 濁水溪流域.gpkg-shm
+│   ├── 濁水溪流域.gpkg-wal
+│   ├── 濁水溪流域.qlr
+│   ├── 水文分析資料(雨量流量氣象站)
+│   │   └── 水文分析資料(雨量流量氣象站)
+│   │       ├── 氣象站點位
+│   │       │   ├── clip
+│   │       │   ├── twd97_氣象站.dbf
+│   │       │   ├── twd97_氣象站.prj
+│   │       │   ├── twd97_氣象站.sbn
+│   │       │   ├── twd97_氣象站.sbx
+│   │       │   ├── twd97_氣象站.shp
+│   │       │   ├── twd97_氣象站.shp.xml
+│   │       │   └── twd97_氣象站.shx
+│   │       ├── 雨量站位置圖_水利署_現存(109年度)
+│   │       │   ├── ppobsta_wra_e.cpg
+│   │       │   ├── ppobsta_wra_e.dbf
+│   │       │   ├── ppobsta_wra_e.prj
+│   │       │   ├── ppobsta_wra_e.sbn
+│   │       │   ├── ppobsta_wra_e.sbx
+│   │       │   ├── ppobsta_wra_e.shp
+│   │       │   └── ppobsta_wra_e.shx
+│   │       ├── 已廢流量站點位107
+│   │       │   ├── RIVQASTA_a.dbf
+│   │       │   ├── RIVQASTA_a.prj
+│   │       │   ├── RIVQASTA_a.sbn
+│   │       │   ├── RIVQASTA_a.sbx
+│   │       │   ├── RIVQASTA_a.shp
+│   │       │   └── RIVQASTA_a.shx
+│   │       ├── 現存氣象站點位107
+│   │       │   ├── ppobsta_e_wra.dbf
+│   │       │   ├── ppobsta_e_wra.prj
+│   │       │   ├── ppobsta_e_wra.sbn
+│   │       │   ├── ppobsta_e_wra.sbx
+│   │       │   ├── ppobsta_e_wra.shp
+│   │       │   └── ppobsta_e_wra.shx
+│   │       ├── 現存流量站點位107
+│   │       │   ├── RIVQASTA_e.dbf
+│   │       │   ├── RIVQASTA_e.prj
+│   │       │   ├── RIVQASTA_e.sbn
+│   │       │   ├── RIVQASTA_e.sbx
+│   │       │   ├── RIVQASTA_e.shp
+│   │       │   ├── RIVQASTA_e.shp.DESKTOP-DJSC7G1.2972.5244.sr.lock
+│   │       │   └── RIVQASTA_e.shx
+│   │       └── 現存雨量站點位107
+│   │           ├── ppobsta_e_wra.dbf
+│   │           ├── ppobsta_e_wra.prj
+│   │           ├── ppobsta_e_wra.sbn
+│   │           ├── ppobsta_e_wra.sbx
+│   │           ├── ppobsta_e_wra.shp
+│   │           ├── ppobsta_e_wra.shx
+│   │           └── 現存雨量站點位107.rar
+│   └── 地下水補注地質敏感區_濁水溪沖積扇
+│       └── 地下水補注地質敏感區_濁水溪沖積扇
+│           ├── RB_050_V7_97_Polygon.dbf
+│           ├── RB_050_V7_97_Polygon.prj
+│           ├── RB_050_V7_97_Polygon.shp
+│           ├── RB_050_V7_97_Polygon.shx
+│           ├── 坐標系統.txt
+│           └── 使用須知V2.pdf
+├── 2.濁水溪流域相關2
+│   ├── ZH_河川治理點.prj
+│   ├── ZH_河川治理點.sbn
+│   ├── ZH_河川治理點.sbx
+│   ├── ZH_河川治理點.shp
+│   ├── ZH_河川治理點.shp.DESKTOP-4NIP7M1.9732.6044.sr.lock
+│   ├── ZH_河川治理點.shx
+│   ├── ZH_第四次森林調查林地蓄積圖.dbf
+│   ├── ZH_第四次森林調查林地蓄積圖.prj
+│   ├── ZH_第四次森林調查林地蓄積圖.sbn
+│   ├── ZH_第四次森林調查林地蓄積圖.sbx
+│   ├── ZH_第四次森林調查林地蓄積圖.shp
+│   ├── ZH_第四次森林調查林地蓄積圖.shp.xml
+│   ├── ZH_第四次森林調查林地蓄積圖.shx
+│   ├── dem40m濁水溪_1000ha水系.dbf
+│   ├── dem40m濁水溪_1000ha水系.sbn
+│   ├── dem40m濁水溪_1000ha水系.sbx
+│   ├── dem40m濁水溪_1000ha水系.shp
+│   ├── dem40m濁水溪_1000ha水系.shp.xml
+│   ├── dem40m濁水溪_1000ha水系.shx
+│   ├── dem40m濁水溪_100ha水系.dbf
+│   ├── dem40m濁水溪_100ha水系.sbn
+│   ├── dem40m濁水溪_100ha水系.sbx
+│   ├── dem40m濁水溪_100ha水系.shp
+│   ├── dem40m濁水溪_100ha水系.shp.xml
+│   ├── dem40m濁水溪_100ha水系.shx
+│   ├── dem40m濁水溪_外框.dbf
+│   ├── dem40m濁水溪_坡度.img
+│   ├── dem40m濁水溪_高程.img
+│   ├── dem40m濁水溪_坡度.img.aux.xml
+│   ├── dem40m濁水溪_高程.img.aux.xml
+│   ├── dem40m濁水溪_高程.img.vat.dbf
+│   ├── dem40m濁水溪_坡度.rrd
+│   ├── dem40m濁水溪_高程.rrd
+│   ├── dem40m濁水溪_外框.sbn
+│   ├── dem40m濁水溪_外框.sbx
+│   ├── dem40m濁水溪_外框.shp
+│   ├── dem40m濁水溪_外框.shp.xml
+│   ├── dem40m濁水溪_外框.shx
+│   ├── dem40m濁水溪_土砂災害熱區.dbf
+│   ├── dem40m濁水溪_實測凹度指標.dbf
+│   ├── dem40m濁水溪_土砂災害熱區.prj
+│   ├── dem40m濁水溪_土砂災害熱區.sbn
+│   ├── dem40m濁水溪_實測凹度指標.sbn
+│   ├── dem40m濁水溪_土砂災害熱區.sbx
+│   ├── dem40m濁水溪_實測凹度指標.sbx
+│   ├── dem40m濁水溪_土砂災害熱區.shp
+│   ├── dem40m濁水溪_實測凹度指標.shp
+│   ├── dem40m濁水溪_實測凹度指標.shp.xml
+│   ├── dem40m濁水溪_土砂災害熱區.shx
+│   └── dem40m濁水溪_實測凹度指標.shx
+├── 3舊濁水溪相關
+│   ├── iNaturalist蝴蝶標記.cpg
+│   ├── iNaturalist蝴蝶標記.dbf
+│   ├── iNaturalist蝴蝶標記.prj
+│   ├── iNaturalist蝴蝶標記.shp
+│   ├── iNaturalist蝴蝶標記.shx
+│   ├── 彰化畜牧業.cpg
+│   ├── 彰化畜牧業.dbf
+│   ├── 彰化畜牧業.prj
+│   ├── 彰化畜牧業.shp
+│   ├── 彰化畜牧業.shx
+│   ├── 湖埔社大教室.cpg
+│   ├── 湖埔社大教室.dbf
+│   ├── 舊濁水溪河川.gpkg
+│   ├── 舊濁水溪流域.gpkg
+│   ├── 舊濁水溪河川.gpkg-shm
+│   ├── 舊濁水溪流域.gpkg-shm
+│   ├── 舊濁水溪河川.gpkg-wal
+│   ├── 舊濁水溪流域.gpkg-wal
+│   ├── 湖埔社大教室.prj
+│   ├── 舊濁水溪河川.qlr
+│   ├── 舊濁水溪流域.qlr
+│   ├── 湖埔社大教室.shp
+│   └── 湖埔社大教室.shx
+├── 4流域防災相關
+│   ├── 106歷年衛星判釋全島崩塌地圖
+│   │   ├── 106年崩塌地.cpg
+│   │   ├── 106年崩塌地.dbf
+│   │   ├── 106年崩塌地.prj
+│   │   ├── 106年崩塌地.sbn
+│   │   ├── 106年崩塌地.sbx
+│   │   ├── 106年崩塌地.shp
+│   │   └── 106年崩塌地.shx
+│   ├── 濁水溪-110年度土石流潛勢溪流圖.gpkg
+│   ├── 濁水溪-110年度土石流潛勢溪流圖.gpkg-shm
+│   ├── 濁水溪-110年度土石流潛勢溪流圖.gpkg-wal
+│   ├── 濁水溪-110年度土石流潛勢溪流圖.qlr
+│   ├── 濁水溪-110年度土石流潛勢溪流範圍圖.qlr
+│   ├── 濁水溪-110年度土石流潛勢溪流圖範圍圖.gpkg
+│   ├── 濁水溪-110年度土石流潛勢溪流圖範圍圖.gpkg-shm
+│   ├── 濁水溪-110年度土石流潛勢溪流圖範圍圖.gpkg-wal
+│   ├── 濁水溪-堤防或護岸位置圖.gpkg
+│   ├── 濁水溪-堤防或護岸位置圖.gpkg-shm
+│   ├── 濁水溪-堤防或護岸位置圖.gpkg-wal
+│   ├── 濁水溪-堤防或護岸位置圖.qlr
+│   ├── 斷層系統
+│   │   ├── 斷層系統.dbf
+│   │   ├── 斷層系統.sbn
+│   │   ├── 斷層系統.sbx
+│   │   ├── 斷層系統.shp
+│   │   └── 斷層系統.shx
+│   └── 土壤液化潛勢_初級.qlr
+├── 5生態相關
+│   ├── 49種陸域脊椎保育類動物潛在分布範圍_20200506
+│   │   └── 49種陸域脊椎保育類動物潛在分布範圍_20200506
+│   │       ├── protected_rangemap_20200506
+│   │       │   ├── protected_rangemap_20200512.cpg
+│   │       │   ├── protected_rangemap_20200512.dbf
+│   │       │   ├── protected_rangemap_20200512.prj
+│   │       │   ├── protected_rangemap_20200512.qml
+│   │       │   ├── protected_rangemap_20200512.shp
+│   │       │   └── protected_rangemap_20200512.shx
+│   │       ├── ~$文件_49種陸域脊椎保育類動物潛在分布範圍.docx
+│   │       └── 說明文件_49種陸域脊椎保育類動物潛在分布範圍.docx
+│   ├── eBird水鳥熱點 _20200508_註解更正
+│   │   ├── eBird水鳥熱點_20200508
+│   │   │   ├── eBird水鳥熱點20200508.cpg
+│   │   │   ├── eBird水鳥熱點20200508.dbf
+│   │   │   ├── eBird水鳥熱點20200508.prj
+│   │   │   ├── eBird水鳥熱點20200508.qpj
+│   │   │   ├── eBird水鳥熱點20200508.shp
+│   │   │   └── eBird水鳥熱點20200508.shx
+│   │   └── 說明文件_eBird水鳥熱點_註解更正.docx
+│   ├── 濁水溪-野生動物重要棲息環境.gpkg
+│   ├── 濁水溪-野生動物重要棲息環境.gpkg-shm
+│   ├── 濁水溪-野生動物重要棲息環境.gpkg-wal
+│   ├── 濁水溪-野生動物重要棲息環境.qlr
+│   ├── 濁水溪-紅皮書受脅植物分布點位緩衝區.gpkg
+│   ├── 濁水溪-紅皮書受脅植物分布點位緩衝區.qlr
+│   ├── 國家重要濕地.qlr
+│   ├── 野生動物重要棲地環境.qlr
+│   ├── 紅皮書受脅植物重要棲地 _20200511
+│   │   └── 紅皮書受脅植物重要棲地 _20200511
+│   │       ├── Plant_important_habitat_20200511
+│   │       │   ├── Plant_important_habitat_20200511.CPG
+│   │       │   ├── Plant_important_habitat_20200511.dbf
+│   │       │   ├── Plant_important_habitat_20200511.prj
+│   │       │   ├── Plant_important_habitat_20200511.sbn
+│   │       │   ├── Plant_important_habitat_20200511.sbx
+│   │       │   ├── Plant_important_habitat_20200511.shp
+│   │       │   ├── Plant_important_habitat_20200511.shp.xml
+│   │       │   └── Plant_important_habitat_20200511.shx
+│   │       └── 說明文件_紅皮書受脅植物重要棲地.docx
+│   ├── 紅皮書受脅植物重要棲地.qlr
+│   └── 紅皮書受脅植物分布點位緩衝帶 _20200511
+│       └── 紅皮書受脅植物分布點位緩衝帶 _20200511
+│           ├── Buffer_threatened_plant_20200511
+│           │   ├── Buffer_threatened_plant_20200511.cpg
+│           │   ├── Buffer_threatened_plant_20200511.dbf
+│           │   ├── Buffer_threatened_plant_20200511.prj
+│           │   ├── Buffer_threatened_plant_20200511.sbn
+│           │   ├── Buffer_threatened_plant_20200511.sbx
+│           │   ├── Buffer_threatened_plant_20200511.shp
+│           │   ├── Buffer_threatened_plant_20200511.shp.xml
+│           │   └── Buffer_threatened_plant_20200511.shx
+│           └── 說明文件_紅皮書受脅植物分布點位緩衝帶.docx
+├── 6地下水文
+│   ├── 一級海岸災害防治區
+│   │   ├── CoastalProtectionZone.dbf
+│   │   ├── CoastalProtectionZone.prj
+│   │   ├── CoastalProtectionZone.sbn
+│   │   ├── CoastalProtectionZone.sbx
+│   │   ├── CoastalProtectionZone.shp
+│   │   └── CoastalProtectionZone.shx
+│   ├── 一級海岸陸域緩衝區
+│   │   ├── CoastalBufferZone.dbf
+│   │   ├── CoastalBufferZone.prj
+│   │   ├── CoastalBufferZone.sbn
+│   │   ├── CoastalBufferZone.sbx
+│   │   ├── CoastalBufferZone.shp
+│   │   └── CoastalBufferZone.shx
+│   ├── 地下水第一級管制區
+│   │   ├── gwconare.cpg
+│   │   ├── gwconare.dbf
+│   │   ├── gwconare.prj
+│   │   ├── gwconare.sbn
+│   │   ├── gwconare.sbx
+│   │   ├── gwconare.shp
+│   │   └── gwconare.shx
+│   ├── 地下水第二級管制區
+│   │   ├── gwconare2.cpg
+│   │   ├── gwconare2.dbf
+│   │   ├── gwconare2.prj
+│   │   ├── gwconare2.sbn
+│   │   ├── gwconare2.sbx
+│   │   ├── gwconare2.shp
+│   │   ├── gwconare2.shx
+│   │   └── gwconare2.xml
+│   ├── 地下水觀測井位置圖_現存站
+│   │   └── gwobwell_e
+│   │       ├── gwobwell_e.cpg
+│   │       ├── gwobwell_e.dbf
+│   │       ├── gwobwell_e.prj
+│   │       ├── gwobwell_e.sbn
+│   │       ├── gwobwell_e.sbx
+│   │       ├── gwobwell_e.shp
+│   │       └── gwobwell_e.shx
+│   ├── 彰化累積下陷量等值圖_81至109年
+│   │   ├── CH81109.CPG
+│   │   ├── CH81109.dbf
+│   │   ├── CH81109.prj
+│   │   ├── CH81109.sbn
+│   │   ├── CH81109.sbx
+│   │   ├── CH81109.shp
+│   │   ├── CH81109.shx
+│   │   └── CH81109.xml
+│   ├── 地層下陷水準高程檢測點
+│   │   ├── swwrb.cpg
+│   │   ├── swwrb.dbf
+│   │   ├── swwrb.prj
+│   │   ├── swwrb.sbn
+│   │   ├── swwrb.sbx
+│   │   ├── swwrb.shp
+│   │   ├── swwrb.shx
+│   │   └── swwrb.xml
+│   ├── 彰化平均下陷速率等值圖_108至109年
+│   │   ├── CH108109.CPG
+│   │   ├── CH108109.dbf
+│   │   ├── CH108109.prj
+│   │   ├── CH108109.sbn
+│   │   ├── CH108109.sbx
+│   │   ├── CH108109.shp
+│   │   ├── CH108109.shx
+│   │   └── CH108109.xml
+│   └── 磁環分層式地層下陷監測井
+│       ├── subasta.CPG
+│       ├── subasta.dbf
+│       ├── subasta.prj
+│       ├── subasta.sbn
+│       ├── subasta.sbx
+│       ├── subasta.shp
+│       ├── subasta.shx
+│       └── subasta.xml
+├── 7防洪排水
+│   ├── 淹水潛勢圖_定量降雨12小時200mm
+│   │   ├── flood_200mm_12hr.CPG
+│   │   ├── flood_200mm_12hr.dbf
+│   │   ├── flood_200mm_12hr.prj
+│   │   ├── flood_200mm_12hr.sbn
+│   │   ├── flood_200mm_12hr.sbx
+│   │   ├── flood_200mm_12hr.shp
+│   │   ├── flood_200mm_12hr.shp.xml
+│   │   └── flood_200mm_12hr.shx
+│   ├── 淹水潛勢圖_定量降雨12小時300mm
+│   │   ├── flood_300mm_12hr.CPG
+│   │   ├── flood_300mm_12hr.dbf
+│   │   ├── flood_300mm_12hr.prj
+│   │   ├── flood_300mm_12hr.sbn
+│   │   ├── flood_300mm_12hr.sbx
+│   │   ├── flood_300mm_12hr.shp
+│   │   ├── flood_300mm_12hr.shp.xml
+│   │   └── flood_300mm_12hr.shx
+│   ├── 淹水潛勢圖_定量降雨12小時400mm
+│   │   ├── flood_400mm_12hr.CPG
+│   │   ├── flood_400mm_12hr.dbf
+│   │   ├── flood_400mm_12hr.prj
+│   │   ├── flood_400mm_12hr.sbn
+│   │   ├── flood_400mm_12hr.sbx
+│   │   ├── flood_400mm_12hr.shp
+│   │   ├── flood_400mm_12hr.shp.xml
+│   │   └── flood_400mm_12hr.shx
+│   ├── 淹水潛勢圖_定量降雨24小時200mm
+│   │   ├── flood_200mm_24hr.CPG
+│   │   ├── flood_200mm_24hr.dbf
+│   │   ├── flood_200mm_24hr.prj
+│   │   ├── flood_200mm_24hr.sbn
+│   │   ├── flood_200mm_24hr.sbx
+│   │   ├── flood_200mm_24hr.shp
+│   │   ├── flood_200mm_24hr.shp.xml
+│   │   └── flood_200mm_24hr.shx
+│   ├── 淹水潛勢圖_定量降雨24小時350mm
+│   │   ├── flood_350mm_24hr.CPG
+│   │   ├── flood_350mm_24hr.dbf
+│   │   ├── flood_350mm_24hr.prj
+│   │   ├── flood_350mm_24hr.sbn
+│   │   ├── flood_350mm_24hr.sbx
+│   │   ├── flood_350mm_24hr.shp
+│   │   ├── flood_350mm_24hr.shp.xml
+│   │   └── flood_350mm_24hr.shx
+│   ├── 淹水潛勢圖_定量降雨24小時500mm
+│   │   ├── flood_500mm_24hr.CPG
+│   │   ├── flood_500mm_24hr.dbf
+│   │   ├── flood_500mm_24hr.prj
+│   │   ├── flood_500mm_24hr.sbn
+│   │   ├── flood_500mm_24hr.sbx
+│   │   ├── flood_500mm_24hr.shp
+│   │   ├── flood_500mm_24hr.shp.xml
+│   │   └── flood_500mm_24hr.shx
+│   ├── 淹水潛勢圖_定量降雨24小時650mm
+│   │   ├── flood_650mm_24hr.CPG
+│   │   ├── flood_650mm_24hr.dbf
+│   │   ├── flood_650mm_24hr.prj
+│   │   ├── flood_650mm_24hr.sbn
+│   │   ├── flood_650mm_24hr.sbx
+│   │   ├── flood_650mm_24hr.shp
+│   │   ├── flood_650mm_24hr.shp.xml
+│   │   └── flood_650mm_24hr.shx
+│   ├── 淹水潛勢圖_定量降雨6小時150mm
+│   │   ├── flood_150mm_6hr.CPG
+│   │   ├── flood_150mm_6hr.dbf
+│   │   ├── flood_150mm_6hr.prj
+│   │   ├── flood_150mm_6hr.sbn
+│   │   ├── flood_150mm_6hr.sbx
+│   │   ├── flood_150mm_6hr.shp
+│   │   ├── flood_150mm_6hr.shp.xml
+│   │   └── flood_150mm_6hr.shx
+│   ├── 淹水潛勢圖_定量降雨6小時250mm
+│   │   ├── flood_250mm_6hr.CPG
+│   │   ├── flood_250mm_6hr.dbf
+│   │   ├── flood_250mm_6hr.prj
+│   │   ├── flood_250mm_6hr.sbn
+│   │   ├── flood_250mm_6hr.sbx
+│   │   ├── flood_250mm_6hr.shp
+│   │   ├── flood_250mm_6hr.shp.xml
+│   │   └── flood_250mm_6hr.shx
+│   ├── 淹水潛勢圖_定量降雨6小時350mm
+│   │   ├── flood_350mm_6hr.CPG
+│   │   ├── flood_350mm_6hr.dbf
+│   │   ├── flood_350mm_6hr.prj
+│   │   ├── flood_350mm_6hr.sbn
+│   │   ├── flood_350mm_6hr.sbx
+│   │   ├── flood_350mm_6hr.shp
+│   │   ├── flood_350mm_6hr.shp.xml
+│   │   └── flood_350mm_6hr.shx
+│   └── 抽水站位置圖
+│       └── pump_drain
+│           ├── pump_drain.cpg
+│           ├── pump_drain.dbf
+│           ├── pump_drain.prj
+│           ├── pump_drain.qpj
+│           ├── pump_drain.shp
+│           └── pump_drain.shx
+├── 8農田地層文化
+│   ├── 地層
+│   │   ├── 地層.dbf
+│   │   ├── 地層.sbn
+│   │   ├── 地層.sbx
+│   │   ├── 地層.shp
+│   │   └── 地層.shx
+│   ├── 詳測土壤圖
+│   │   ├── DetailedSoilMap.lyr
+│   │   ├── DetailedSoilMap.shp.DESKTOP-J37GMNB.16836.9132.sr.lock
+│   │   ├── DetailedSoilMap.xml
+│   │   ├── DetailedSoilMapWGS84.cpg
+│   │   ├── DetailedSoilMapWGS84.dbf
+│   │   ├── DetailedSoilMapWGS84.prj
+│   │   ├── DetailedSoilMapWGS84.shp
+│   │   ├── DetailedSoilMapWGS84.shx
+│   │   ├── ~$土壤圖屬性資料代碼說明20161013.doc
+│   │   ├── 詳測土壤圖圖例參考.pdf
+│   │   └── 詳測土壤圖屬性資料代碼說明20161013.doc
+│   ├── 原住民保留地
+│   │   ├── ZH_原住民保留地.dbf
+│   │   ├── ZH_原住民保留地.prj
+│   │   ├── ZH_原住民保留地.sbn
+│   │   ├── ZH_原住民保留地.sbx
+│   │   ├── ZH_原住民保留地.shp
+│   │   ├── ZH_原住民保留地.shp.DESKTOP-4NIP7M1.9732.6044.sr.lock
+│   │   ├── ZH_原住民保留地.shp.xml
+│   │   └── ZH_原住民保留地.shx
+│   ├── 水利會區域外兩期作田
+│   │   ├── out_irrigation1.dbf
+│   │   ├── out_irrigation1.prj
+│   │   ├── out_irrigation1.qpj
+│   │   ├── out_irrigation1.shp
+│   │   └── out_irrigation1.shx
+│   ├── 水利會區域外單期作田
+│   │   ├── out_irrigation_single.dbf
+│   │   ├── out_irrigation_single.prj
+│   │   ├── out_irrigation_single.qpj
+│   │   ├── out_irrigation_single.shp
+│   │   └── out_irrigation_single.shx
+│   └── 客家文化重點發展鄉鎮市區
+│       ├── 客家文化重點發展鄉鎮市區.cpg
+│       ├── 客家文化重點發展鄉鎮市區.dbf
+│       ├── 客家文化重點發展鄉鎮市區.prj
+│       ├── 客家文化重點發展鄉鎮市區.qpj
+│       ├── 客家文化重點發展鄉鎮市區.shp
+│       └── 客家文化重點發展鄉鎮市區.shx
+├── 9.其他文件
+│   ├── 110年度提升服務效能計畫-局.odt
+│   ├── 情勢調查.pdf
+│   ├── 防災篇摺頁-正面.jpg
+│   ├── 彰化縣一級海岸防護計畫.pdf
+│   ├── 濁水溪治理規劃檢討報告9604.pdf
+│   ├── 八堡圳灌溉區內外空間探究.docx
+│   └── 濁水溪水源設施系統概況圖.jpg
+├── filelist.txt
+├── layer.csv
+├── pig.svg
+├── 濁水溪流域.qgz
+├── 濁水溪情報地圖.qlr
+├── 彰化農田水利會灌溉區域圖_modified180902-2done.tif
+└── 彰化農田水利會灌區外灌溉地位置圖_modified180902-1.tif
+
+68 directories, 467 files
