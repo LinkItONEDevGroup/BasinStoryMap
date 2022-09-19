@@ -6,6 +6,7 @@ Copyright (c) 2022 LASS
 - 資料包內相關資料主要取自政府開放資料，版權宣告應為 政府資料開放授權條款－第1版，唯資料來自各處，還是以原始資料來源版權宣告為主
 - 資料包內主要是收集與彙整，不保證資料品質與正確性，相關資料還是以官方正式來源為主
 - LASS 與相關製作夥伴，不負相關任何責任
+- 特別個別資料會補充相關版權資訊，請參考 DATA_LICENSE.md
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
